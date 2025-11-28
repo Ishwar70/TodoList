@@ -1,0 +1,59 @@
+body {
+    padding: 30px;
+    font-family: Arial;
+    background: #f3f3f3;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.add-box input, .add-box select {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+#addBtn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.task {
+    padding: 12px;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid black;
+}
+
+.priority-High { border-color: red; }
+.priority-Medium { border-color: orange; }
+.priority-Low { border-color: green; }
+
+button.deleteBtn {
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.completeBtn {
+    padding: 5px 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
